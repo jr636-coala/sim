@@ -184,7 +184,6 @@ struct BoltzmannLattice {
     endCollision();
     swap();
     streaming();
-    startCollision();
   }
 
   void set(auto x, auto y) {

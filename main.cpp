@@ -51,8 +51,7 @@ int main(int argc, char** argv) {
     }
     else if (key == 'e') {
       // Emitter
-      for (auto n = 0; n < bl.DIR; ++n)
-        bl.grid[bl.index(n,w2/2,h2+h2/2)] = bl.nequib(n, w2/2, h2+h2/2, .1, .1, 1);
+      bl.grid[bl.index(1,w2/2,h2+h2/2)] = bl.nequib(1, w2/2, h2+h2/2, .1, .1, 1);
     }
     else if (key == 'q') gr.finished = true;
   };
